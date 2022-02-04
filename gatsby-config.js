@@ -95,5 +95,19 @@ module.exports = {
                 icon: "src/assets/images/favicon.png",
             },
         },
+        {
+            resolve: "gatsby-plugin-firebase",
+            options: {
+              credentials: {
+                apiKey: "AIzaSyA6sjNoBNP0oLft7H85QDoAIRkmxOnJkis",
+                authDomain: "personal-portfolio-95be7.firebaseapp.com",
+                projectId: "personal-portfolio-95be7",
+                storageBucket: "personal-portfolio-95be7.appspot.com",
+                messagingSenderId: "860531821977",
+                appId: "1:860531821977:web:580cdf8e745512ad381708",
+                measurementId: "G-P66R0TP3FG"
+              }
+            }
+          }
     ],
 };
