@@ -1,57 +1,27 @@
 {
-    "title": "default-home",
+    "title": "web-developer-home",
     "content": [
         {
             "id": "default-home-hero",
             "section": "hero-section",
             "headings": [
                 {
-                    "content": "WELCOME TO MY WORLD"
-                },
-                {
-                    "content": "Hi, I’m <span>Jone Lee</span>"
+                    "content": "ADAM PAN"
                 }
             ],
-            "animated_texts": [
-                "Developer.",
-                "Professional Coder.",
-                "Designer."
-            ],
-            "texts": [
-                {
-                    "content": "I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that."
-                }
-            ],
-            "skills": [
-                {
-                    "id": 1,
-                    "title": "developer",
-                    "image": {
-                        "src": "../images/icons/icons-01.png",
-                        "alt": "Skill Icon"
-                    }
-                },
-                {
-                    "id": 2,
-                    "title": "developer",
-                    "image": {
-                        "src": "../images/icons/icons-02.png",
-                        "alt": "Skill Icon"
-                    }
-                },
-                {
-                    "id": 3,
-                    "title": "developer",
-                    "image": {
-                        "src": "../images/icons/icons-03.png",
-                        "alt": "Skill Icon"
-                    }
-                }
-            ],
+            "animated_texts": ["software engineer.", "camper.", "napper.", "snowboarder."],
             "images": [
                 {
-                    "src": "../images/slider/banner-01.png",
+                    "src": "../images/bg/hawaii.jpg",
                     "alt": "Personal Portfolio Images"
+                }
+            ],
+            "buttons": [
+                {
+                    "id": 1,
+                    "path": "#contacts",
+                    "className": "shadow-none",
+                    "content": "CONTACT ME"
                 }
             ]
         },
@@ -59,8 +29,8 @@
             "id": "default-home-services",
             "section": "service-section",
             "section_title": {
-                "title": "What I Do",
-                "subtitle": "Features"
+                "title": "Projects",
+                "subtitle": "What I do"
             },
             "items": [
                 {
@@ -83,36 +53,15 @@
                     "description": "I throw myself down among the tall grass by the stream as I lie close to the earth.",
                     "icon": "Tv",
                     "path": "#!"
-                },
-                {
-                    "id": 4,
-                    "title": "Mobile App",
-                    "description": "There are many variations of passages of Lorem Ipsum available, but the majority.",
-                    "icon": "Twitch",
-                    "path": "#!"
-                },
-                {
-                    "id": 5,
-                    "title": "CEO Marketing",
-                    "description": "always free from repetition, injected humour, or non-characteristic words etc.",
-                    "icon": "Wifi",
-                    "path": "#!"
-                },
-                {
-                    "id": 6,
-                    "title": "Personal Portfolio April",
-                    "description": "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence.",
-                    "icon": "Slack",
-                    "path": "#!"
                 }
             ]
         },
         {
             "id": "default-home-portfolio",
-            "section": "portfolio-section",
+            "section": "projects-section",
             "section_title": {
-                "title": "My Portfolio",
-                "subtitle": "Visit my portfolio and keep your feedback"
+                "title": "Projects",
+                "subtitle": "Interesting stuff"
             },
             "items": [
                 {
@@ -174,66 +123,6 @@
                     ],
                     "path": "#!",
                     "likeCount": 630
-                },
-                {
-                    "id": 4,
-                    "title": "Mobile app landing design & Services",
-                    "category": "Figma",
-                    "texts": [
-                        {
-                            "content": "Cupiditate distinctio assumenda explicabo veniam temporibus eligendi."
-                        },
-                        {
-                            "content": "Dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!"
-                        }
-                    ],
-                    "images": [
-                        {
-                            "src": "../images/portfolio/portfolio-04.jpg"
-                        }
-                    ],
-                    "path": "#!",
-                    "likeCount": 360
-                },
-                {
-                    "id": 5,
-                    "title": "Design for tecnology & services",
-                    "category": "Web Design",
-                    "texts": [
-                        {
-                            "content": "Cupiditate distinctio assumenda explicabo veniam temporibus eligendi."
-                        },
-                        {
-                            "content": "Dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!"
-                        }
-                    ],
-                    "images": [
-                        {
-                            "src": "../images/portfolio/portfolio-05.jpg"
-                        }
-                    ],
-                    "path": "#!",
-                    "likeCount": 280
-                },
-                {
-                    "id": 6,
-                    "title": "App for tecnology & services",
-                    "category": "Web Design",
-                    "texts": [
-                        {
-                            "content": "Cupiditate distinctio assumenda explicabo veniam temporibus eligendi."
-                        },
-                        {
-                            "content": "Dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!"
-                        }
-                    ],
-                    "images": [
-                        {
-                            "src": "../images/portfolio/portfolio-06.jpg"
-                        }
-                    ],
-                    "path": "#!",
-                    "likeCount": 600
                 }
             ]
         },
@@ -1586,8 +1475,8 @@
             "id": "default-home-contact",
             "section": "contact-section",
             "section_title": {
-                "title": "Contact With Me",
-                "subtitle": "Contact"
+                "title": "Contact Me",
+                "subtitle": "Have something on your mind?"
             },
             "images": [
                 {

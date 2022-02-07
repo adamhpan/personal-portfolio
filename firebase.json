@@ -23,7 +23,12 @@
   "storage": {
     "rules": "storage.rules"
   },
-  "emulators": {},
+  "emulators": {    
+    "hosting": {
+      "host": "0.0.0.0",
+      "port": "3000"
+    }
+  },
   "remoteconfig": {
     "template": "remoteconfig.template.json"
   }

@@ -20,13 +20,10 @@ const Layout = ({ children, color, className, pageTitle }) => {
         <>
             <SEO
                 bodyClass={cn(`template-color-${color} spybody`, className)}
-                titleTemplate={pageTitle}
             />
             <Client />
             {children}
             <ScrollToTop />
-            <DemoButton onClick={demoHandler} />
-            <DemoArea isOpen={demoOpen} onClose={demoHandler} />
         </>
     );
 };

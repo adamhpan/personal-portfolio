@@ -52,7 +52,7 @@ const HeroArea = ({ data, id }) => {
                                                             }
                                                             typeSpeed={50}
                                                             backSpeed={50}
-                                                            backDelay={1}
+                                                            backDelay={5000}
                                                             loop
                                                             smartBackspace
                                                         />

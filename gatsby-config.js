@@ -1,38 +1,26 @@
 module.exports = {
     siteMetadata: {
-        siteUrl: "https://www.yourdomain.tld",
-        title: "Inbio - Personal Portfolio React Template",
-        description: "Awesome Gatsby template",
-        author: "Rainbow IT",
+        siteUrl: "https://www.adamhpan.com",
+        title: "Adam Pan - Portfolio",
+        description: "Personal portfolio",
+        // author: "Rainbow IT",
         siteLanguage: "en",
         image: "banner.jpg",
-        titleTemplate: "inbio",
+        titleTemplate: "",
         twitterUsername: "@rainbowit",
         getform_url:
             "https://getform.io/f/7a6695a7-c8e3-442c-bc2f-d46d3b9a535e",
         socials: [
             {
-                id: 1,
-                title: "facebook",
-                path: "https://facebook.com",
-                icon: "Facebook",
-            },
-            {
-                id: 2,
-                title: "instagram",
-                path: "https://instagram.com",
-                icon: "Instagram",
-            },
-            {
                 id: 3,
                 title: "linkedin",
-                path: "https://linkedin.com",
+                path: "https://www.linkedin.com/in/ahpan",
                 icon: "Linkedin",
             },
         ],
         contact: {
-            phone: "01234567890",
-            email: "admin@example.com",
+            phone: "1 (415) 689-3642",
+            email: "blumenauer_lazarus@aleeas.com",
         },
     },
     plugins: [
@@ -85,8 +73,8 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: "Inbio",
-                short_name: "inbio",
+                name: "Adam",
+                short_name: "adam",
                 theme_color: "#ff014f",
                 background_color: "#ffffff",
                 display: "standalone",

@@ -22,7 +22,11 @@ const PortfolioArea = ({ data, id }) => {
                     </div>
                 </div>
 
-                <div className="row row--25 mt--10 mt_md--10 mt_sm--10">
+                <div className="contact-about-area" style={{"marginTop": "20px", "textAlign": "center"}}>
+                    Nothing yet. Check back soon for more!
+                </div>
+
+                {/* <div className="row row--25 mt--10 mt_md--10 mt_sm--10">
                     {data?.items?.map((item) => (
                         <div
                             key={item.id}
@@ -41,7 +45,7 @@ const PortfolioArea = ({ data, id }) => {
                             />
                         </div>
                     ))}
-                </div>
+                </div> */}
             </div>
         </div>
     );
@@ -56,7 +60,7 @@ PortfolioArea.propTypes = {
 };
 
 PortfolioArea.defaultProps = {
-    id: "portfolio",
+    id: "projects",
 };
 
 export default PortfolioArea;

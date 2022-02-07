@@ -41,7 +41,7 @@ const SEO = ({
             : `${siteUrl}/${site.siteMetadata.image}`;
     const imgWidth = metaImage?.width ? metaImage.width : 875;
     const imgHeight = metaImage?.height ? metaImage.height : 554;
-    const siteTitle = `${template} || ${metaTitle}`;
+    const siteTitle = `${metaTitle}`;
 
     const basSchema = [
         {

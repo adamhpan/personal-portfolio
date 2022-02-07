@@ -10,45 +10,9 @@
         },
         {
             "id": 2,
-            "text": "Features",
-            "path": "features",
-            "icon": "Briefcase"
-        },
-        {
-            "id": 3,
-            "text": "Portfolio",
-            "path": "portfolio",
-            "icon": "Layers"
-        },
-        {
-            "id": 4,
-            "text": "Resume",
-            "path": "resume",
-            "icon": "Users"
-        },
-        {
-            "id": 5,
-            "text": "Clients",
-            "path": "clients",
-            "icon": "User"
-        },
-        {
-            "id": 6,
-            "text": "Pricing",
-            "path": "pricing",
-            "icon": "ShoppingCart"
-        },
-        {
-            "id": 7,
-            "text": "Blog",
-            "path": "blog",
-            "icon": "Image"
-        },
-        {
-            "id": 8,
-            "text": "Contact",
-            "path": "contacts",
-            "icon": "MessageCircle"
+            "text": "Projects",
+            "path": "projects",
+            "icon": "Hexagon"
         }
     ]
 }

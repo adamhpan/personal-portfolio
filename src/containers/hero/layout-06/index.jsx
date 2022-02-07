@@ -98,7 +98,7 @@ const HeroArea = ({ data, id }) => {
                                             strings={data.animated_texts}
                                             typeSpeed={50}
                                             backSpeed={50}
-                                            backDelay={1}
+                                            backDelay={5000}
                                             loop
                                             smartBackspace
                                         />
